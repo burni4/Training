@@ -3,8 +3,7 @@
 function ipsBetween(start, end){
   
     let arrStart = start.split("."),
-        arrEnd = end.split("."),
-        res = 0;
+        arrEnd = end.split(".");
     
     let a = arrEnd[0] - arrStart[0],
         b = arrEnd[1] - arrStart[1],
