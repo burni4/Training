@@ -10,6 +10,6 @@ function int32ToIp(int32){
     c = Math.trunc((int32 % 256 ** 3) % (256 ** 2) / 256);
     
     d = Math.trunc((int32 % 256 ** 3) % (256 ** 2) % 256);
-    
+     
     return `${a}.${b}.${c}.${d}`
-  }
+  } 
